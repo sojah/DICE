@@ -1,0 +1,36 @@
+#row1 h1{color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size:300%;}
+body{
+  font-style: normal;
+  font-family: monospace;
+  text-align: center;
+  color: white;
+   background-image: url(die.jpg);
+   }
+
+#column1 h1 #column2 h1{
+  color: green;
+  font-family: fantasy;
+  font-weight: bold;
+  align-content: center;
+}
+
+}
+#thisroll {
+  padding-top: 150px;
+  font-size: 700%;
+
+}
+.{
+  float: left;
+  margin: auto;
+  padding: 5px 10px 5px 10px;
+}
+
+.container p {
+  padding-left: 350px;
+  font-size: 300%
+}

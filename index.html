@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pig Dice</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+      </head>
+  <body>
+    <!--container begins here-->
+    <div class="container">
+      <div id="row1" class="Row">
+    <h1>PiG DICE</h1>
+  </div>
+      <!--Row1 begins here-->
+      <div id="row2" class="Row">
+        <div id="column1" class ="col-md-4">
+        <div id="player1">
+         <h1>Player 1</h1>
+         <div id="rollbutton1">
+           <button type="submit" class="btn">Roll the die!</button>
+       </div><br />
+         <div id="holdbutton1">
+           <button type="submit" class="btn">Hold</button>
+         </div>
+         <div id="result1">
+             <h2>Your score is: <span id="score1"></span></h1>
+             <h2>Total score is: <span id="Total1"></span></h2>
+         </div><br />
+       </div>
+       </div>
+       <!--column1 ends here-->
+       <div id="column2" class ="col-md-4">
+       <div id="player2">
+         <h1>Player 2</h1>
+         <div id="rollbutton2">
+              <button type="submit" class="btn">Roll the die!</button>
+         </div><br />
+         <div id="holdbutton2">
+              <button type="submit" class="btn">Hold</button>
+         </div>
+         <div id="result2">
+            <h2>Your score is: <span id="score2"></span></h1>
+            <h2>Total score is: <span id="Total2"></span></h2>
+        </div>
+       </div>
+     </div>
+<!--column2 ends here-->
+   <div id="column3" class ="col-md-4">
+     <div id="thisroll"></div>
+   </div>
+ </div>
+ <!-- row2 ends here-->
+</div>
+<!--container ends here-->
+<script src="js/jquey.js"></script>
+<script src="js/scripts.js"></script>
+  </body>
+</html>
