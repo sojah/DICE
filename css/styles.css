@@ -1,4 +1,4 @@
-#row1 h1{color: white;
+#row1 h1{color: blue;
   text-align: center;
   font-family: sans-serif;
   font-weight: bold;
@@ -9,7 +9,7 @@ body{
   text-align: center;
   color: white;
    background-image: url(die.jpg);
-   background-color: black;
+   background-color: purple;
    }
 
 #column1 h1 #column2 h1{
